@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dj-starter-kit"
+version = "0.1.0"
+description = ""
+authors = ["Dawda Borje Kujabi <dawdaborjekujabi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
