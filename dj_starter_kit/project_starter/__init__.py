@@ -1,2 +1,0 @@
-class ProjectStarter:
-    pass

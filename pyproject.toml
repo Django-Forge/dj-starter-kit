@@ -8,8 +8,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 typer = "^0.15.1"
+rich = "^14.0.0"
+cookiecutter = "^2.6.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+dj-kit = "dj_starter_kit.main:app"

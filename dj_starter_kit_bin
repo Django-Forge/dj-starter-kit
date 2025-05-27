@@ -1,2 +1,3 @@
 #!/bin/bash
-python -m dj_starter_kit.main "$@"
+typer dj_starter_kit.main run "$@"
+
